@@ -15,3 +15,11 @@ def division(a, b):
 
 def multiplicacion(a, b):
     return a * b
+
+def numerosPares(*args):
+    return [i for i in args if i % 2 == 0]
+
+
+
+def numerosImpares(*args):
+    return [i for i in args if i % 2 != 0]

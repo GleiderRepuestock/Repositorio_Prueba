@@ -13,7 +13,9 @@ First Repository for testing
 
 
     git branch nilson-dev
-    
+
+    git fetch
+    git checkout nilson-dev
 
 
 ```
