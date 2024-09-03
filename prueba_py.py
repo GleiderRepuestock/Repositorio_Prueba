@@ -22,4 +22,6 @@ def numerosPares(*args):
 
 
 def numerosImpares(*args):
+    if len(args) == 0:
+        return []
     return [i for i in args if i % 2 != 0]
